@@ -1,0 +1,29 @@
+.my-profile {
+    display: flex;
+    padding: 15px 0px;
+    align-items: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+.my-profile__photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    margin: 0px;
+}
+
+.my-profile__info {
+    margin: 0px 15px;
+}
+
+.my-profile__name {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 5px 0px;
+}
+
+.my-profile__subtitle {
+    font-size: 14px;
+    color:rgba(128, 128, 128, 0.8);
+    margin: 5px 0px;
+}

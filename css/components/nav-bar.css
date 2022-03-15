@@ -2,7 +2,7 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #f9f9f9;
+    background-color: rgba(0, 0, 0, 1);
     padding: 20px 30px;
     box-sizing: border-box;
     border-top: 1px solid rgba(128, 128, 128, 0.2);
@@ -52,6 +52,6 @@
     font-size: 8px;
     font-weight: 600;
     position: absolute;
-    left: 15px;
-    bottom: 15px;
+    left: 17px;
+    bottom: 17px;
 }
