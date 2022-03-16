@@ -103,3 +103,9 @@
 .user-profile__music i {
     color: green;
 }
+
+.user-profile__date {
+    font-size: 14px;
+    color:rgba(128, 128, 128, 0.8);
+    margin: 0px 5px;
+}

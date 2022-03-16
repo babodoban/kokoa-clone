@@ -18,3 +18,20 @@
 .screen-header__icon span {
     margin: 0px 5px;
 }
+
+.screen-header__titles {
+    display: flex;
+}
+
+.screen-header__main {
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.screen-header__sub {
+    color:rgba(128, 128, 128, 0.8);
+    font-size: 25px;
+    font-weight: 600;
+}
+
