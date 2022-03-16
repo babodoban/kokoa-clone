@@ -19,44 +19,48 @@
     width: 70%;
 }
 
-#login-form {
+.login-form {
     display: flex;
     flex-direction: column;
     margin: 0px 30px;
 }
 
-#login-form input {
+.login-form__username, .login-form__password {
     padding: 15px 0px;
     border: none;
     font-size: 18px;    
     margin-bottom: 20px;
-}
-
-#login-form input:not([type="submit"]) {
+    background-color: transparent;
+    color: white;
     border-bottom: 1px solid rgba(128, 128, 128, 0.4);
     transition: border-color 0.3s ease-in-out;
 }
 
-#login-form input::placeholder {
+.login-form__username::placeholder, .login-form__password::placeholder {
     color: gray;
     opacity: 0.4;
 }
 
-#login-form input:focus {
+.login-form__username:focus, .login-form__password:focus {
     border-color: var(--yellow);
 }
 
-#login-form input[type="submit"] {
+.login-form__submit {
+    padding: 15px 0px;
+    border: none;
+    font-size: 18px;    
+    margin-bottom: 20px;
     background-color: var(--yellow);
+    color: black;
     cursor: pointer;
-    padding: 20px 0px;
-    border-radius: 10px;
+    padding: 15px 0px;
+    marging: 5px 0px;
+    border-radius: 10px;    
 }
 
-#login-form a {
+.login-form a {
     text-decoration: none;
     text-align: center;
-    /* color: rgba(128, 128, 128, 0.4); */
-    color: inherit;
+    color: gray;
     font-size: 14px;
 }
