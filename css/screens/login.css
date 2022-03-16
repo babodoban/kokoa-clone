@@ -58,9 +58,14 @@
     border-radius: 10px;    
 }
 
+.login-form__submit[value="Log In"] {
+    margin-top: 20px;
+}
+
 .login-form a {
     text-decoration: none;
     text-align: center;
     color: gray;
+    opacity: 0.6;
     font-size: 14px;
 }
