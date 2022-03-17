@@ -1,0 +1,97 @@
+.shoppinglive-box {
+    margin: 20px 10px;
+}
+
+.shoppinglive-box__head {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(200, 200, 200, 0.2);
+    padding-bottom: 10px;
+}
+
+.shoppinglive-box__title {
+    color: rgba(200, 200, 200, 0.8);
+    font-size: 15px;
+}
+
+.shoppinglive-box__title i {
+    color: rgba(200, 200, 200, 0.8);
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+.shoppinglive-box__all {
+    color: rgba(200, 200, 200, 0.8);
+    font-size: 13px;
+}
+
+.shoppinglive-box__all i {
+    margin-left: 5px;
+    color: rgba(200, 200, 200, 0.8);
+    font-size: 13px;
+}
+
+.shoppinglive-box__card-title {
+    margin-top: 10px;
+}
+
+.shoppinglive-box__card {
+    margin: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.shoppinglive-box__item {
+    width: 49%;
+}
+
+.shoppinglive-box__lefttime {
+    background-color: rgb(150, 150, 255);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 13px;
+    width: fit-content;
+    position: absolute;
+    margin: 10px;
+}
+
+.shoppinglive-box__photo {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.shoppinglive-box__item-title {
+    margin: 10px 5px;
+    font-size: 14px;
+    font-weight: 200;
+    color: rgba(200, 200, 200, 1);
+}
+
+.shoppinglive-box__item-price {
+    margin: 10px 5px;
+    font-size: 14px;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+}
+
+.shoppinglive-box__item-price span {
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    color: red;
+}
+
+.shoppinglive-box__page {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgba(200, 200, 200, 0.8);
+}
+
+.shoppinglive-box__page i {
+    border: 1px solid rgba(200, 200, 200, 0.8);
+    border-radius: 10px;
+    color: rgba(200, 200, 200, 0.8);
+    padding: 5px 20px;    
+}

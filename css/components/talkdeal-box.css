@@ -1,0 +1,73 @@
+.talkdeal-box {
+    margin: 20px 10px;
+}
+
+.talkdeal-box__head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.talkdeal-box__all {
+    color: rgba(200, 200, 200, 0.8);
+    font-size: 13px;
+}
+
+.talkdeal-box__all i {
+    margin-left: 5px;
+    color: rgba(200, 200, 200, 0.8);
+    font-size: 13px;
+}
+
+.talkdeal-box__card {
+    margin: 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.talkdeal-box__item {
+    width: 49%;
+}
+
+.talkdeal-box__buing {
+    background-color: rgb(150, 150, 255);
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 13px;
+    width: fit-content;
+    position: absolute;
+    margin: 10px;
+}
+
+.talkdeal-box__photo {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.talkdeal-box__item-title {
+    margin: 10px 5px;
+    font-size: 14px;
+    font-weight: 200;
+    color: rgba(200, 200, 200, 1);
+}
+
+.talkdeal-box__item-price {
+    margin: 10px 5px;
+    font-size: 14px;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+}
+
+.talkdeal-box__page {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgba(200, 200, 200, 0.8);
+}
+
+.talkdeal-box__page i {
+    border: 1px solid rgba(200, 200, 200, 0.8);
+    border-radius: 10px;
+    color: rgba(200, 200, 200, 0.8);
+    padding: 5px 20px;    
+}

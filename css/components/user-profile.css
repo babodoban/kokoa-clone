@@ -33,6 +33,11 @@
     margin: 5px 5px 5px 0px;
 }
 
+.user-profile span {
+    color:rgba(128, 128, 128, 0.8);
+    margin-left: 5px;
+}
+
 .user-profile__subtitle {
     font-size: 14px;
     color:rgba(128, 128, 128, 0.8);

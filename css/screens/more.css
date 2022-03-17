@@ -1,0 +1,204 @@
+.my-wallet {
+    width: 100%;
+    margin-top: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.my-wallet, 
+.my-wallet > *, 
+.my-wallet__head > *, 
+.my-wallet__head-title > *, 
+.my-wallet__head-code > *, 
+.my-wallet__certificate > *, 
+.my-wallet__qrcode > *, 
+.my-wallet__devide > *,
+.my-wallet__pay > *,
+.my-wallet__pay-logo i,
+.my-wallet__payaction,
+.my-wallet__payaction > *,
+.my-wallet__pay-bank > *,
+.my-wallet__pay-shopping > * {
+    color: black;
+    background-color: var(--yellow);
+}
+
+.my-wallet__head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.my-wallet__head-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.my-wallet__head-title i {
+    margin-left: 5px;
+}
+
+.my-wallet__head-code {
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-wallet__certificate, .my-wallet__qrcode {
+    margin: 0px 5px;
+    font-weight: 400;
+}
+
+.my-wallet__certificate i, .my-wallet__qrcode i {
+    margin: 0px 5px;
+}
+
+.my-wallet__devide {
+    color: rgba(128, 128, 128, 0.8);
+}
+
+.my-wallet__notice {
+    background-color: whitesmoke;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
+.my-wallet__notice i {
+    margin: 0px 5px;
+    color: black;
+    background-color: transparent;
+}
+
+.my-wallet__pay {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.my-wallet__payaction {
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-wallet__pay-bank {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+.my-wallet__bank-action {
+    margin: 0px 10px;
+}
+
+.more-menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.more-menu__item {
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.more-menu__item i {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.more-menu__item p {
+    font-size: 12px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.more-banner {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.more-banner__photo {
+    margin: 10px 10px;   
+    width: 95%;
+    border-radius: 10px;
+    object-fit: contain;
+    align-content: center;
+}
+
+.more-now {
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.more-now__title {
+    margin: 0px 10px;
+}
+
+.more-now__banner, .more-now__banner i {
+    align-items: center;
+    text-align: center;
+    color: rgba(128, 128, 128, 0.8);
+}
+
+.more-now__banner-image {
+    margin: 10px 10px;
+    width: 95%;
+    border-radius: 10px;
+    object-fit: contain;
+    align-content: center;
+}
+
+.more-whether {
+    margin: 20px 10px 0px 10px;
+    padding: 20px 0px;
+    border-top: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+.more-whether__title {
+    font-size: 14px;
+    color:rgba(200, 200, 200, 0.8);
+}
+
+.more-whether__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.more-whether__whether {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.more-whether__temp {
+    font-size: 30px;
+    margin: 0px 10px;
+}
+
+.more-whether__desc {
+    font-size: 12px;
+    color: rgba(128, 128, 128, 0.5);
+}
+
+.more-whether__desc-comment, .more-whether__desc-air {
+    margin: 5px 0px;
+}
+
+.more-whether__here {
+    margin-right: 15px;
+}
+
+.more-lastbanner {
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+}
