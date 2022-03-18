@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
@@ -7,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Friends</title>
 </head>
+
 <body>
     <div class="status-bar">
         <div class="status-bar__column">
@@ -19,23 +21,20 @@
             <i class="fa-solid fa-battery-full"></i>
         </div>
     </div>
-    
+
     <header class="screen-header">
         <h1 class="screen-header__title">Friends</h1>
         <div class="screen-header__icon">
             <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
             <span><i class="fa-solid fa-user-plus fa-lg"></i></span>
             <span><i class="fa-brands fa-itunes-note fa-lg"></i></span>
-            <span><i class="fa-solid fa-gear fa-lg"></i></span>
+            <a href="settings.html"><span><i class="fa-solid fa-gear fa-lg"></i></span></a>
         </div>
     </header>
 
     <main class="screen">
         <div class="my-profile">
-            <img 
-                src="https://avatars.githubusercontent.com/u/28695751?v=4" 
-                class="my-profile__photo"
-            >
+            <img src="https://avatars.githubusercontent.com/u/28695751?v=4" class="my-profile__photo">
             <div class="my-profile__info">
                 <p class="my-profile__name">승환_도반</p>
                 <p class="my-profile__subtitle">별 일 없이 산다.</p>
@@ -48,10 +47,8 @@
                 <i class="fa-solid fa-angle-up"></i>
             </div>
             <div class="multi-profile__set">
-                <img 
-                    src="data:image/png;base64,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" 
-                    class="multi-profile__plusicon"
-                >
+                <img src="data:image/png;base64,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"
+                    class="multi-profile__plusicon">
                 <p class="multi-profile__desc">Set up a unique profile for each firend!</p>
             </div>
         </div>
@@ -63,11 +60,9 @@
             </div>
             <div class="users">
                 <div class="user-profile">
-                    <div class="user-profile__card">                
-                        <img 
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KJta8kWIZZuPXXKTB4LuhCDjh-yiecCt9BSBJ0WAAhFogOyBfZuTn8hlegwNRRFnShk&usqp=CAU" 
-                            class="user-profile__photo"
-                        >
+                    <div class="user-profile__card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KJta8kWIZZuPXXKTB4LuhCDjh-yiecCt9BSBJ0WAAhFogOyBfZuTn8hlegwNRRFnShk&usqp=CAU"
+                            class="user-profile__photo">
                         <div class="user-profile__info">
                             <div class="user-profile__user">
                                 <p class="user-profile__name">강형구</p>
@@ -82,11 +77,9 @@
                     </div>
                 </div>
                 <div class="user-profile">
-                    <div class="user-profile__card">                
-                        <img 
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KJta8kWIZZuPXXKTB4LuhCDjh-yiecCt9BSBJ0WAAhFogOyBfZuTn8hlegwNRRFnShk&usqp=CAU" 
-                            class="user-profile__photo"
-                        >
+                    <div class="user-profile__card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KJta8kWIZZuPXXKTB4LuhCDjh-yiecCt9BSBJ0WAAhFogOyBfZuTn8hlegwNRRFnShk&usqp=CAU"
+                            class="user-profile__photo">
                         <div class="user-profile__info">
                             <div class="user-profile__user">
                                 <p class="user-profile__name">최고존엄에링</p>
@@ -101,11 +94,9 @@
                     </div>
                 </div>
                 <div class="user-profile">
-                    <div class="user-profile__card">                
-                        <img 
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KJta8kWIZZuPXXKTB4LuhCDjh-yiecCt9BSBJ0WAAhFogOyBfZuTn8hlegwNRRFnShk&usqp=CAU" 
-                            class="user-profile__photo"
-                        >
+                    <div class="user-profile__card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KJta8kWIZZuPXXKTB4LuhCDjh-yiecCt9BSBJ0WAAhFogOyBfZuTn8hlegwNRRFnShk&usqp=CAU"
+                            class="user-profile__photo">
                         <div class="user-profile__info">
                             <div class="user-profile__user">
                                 <p class="user-profile__name">김해솔</p>
@@ -120,11 +111,9 @@
                     </div>
                 </div>
                 <div class="view-birthday">
-                    <div class="view-birthday__card">                
-                        <img 
-                            src="https://i.pinimg.com/474x/8d/e3/a6/8de3a6a51ced988c879ae7db1f71e39d.jpg" 
-                            class="view-birthday__icon"
-                        >
+                    <div class="view-birthday__card">
+                        <img src="https://i.pinimg.com/474x/8d/e3/a6/8de3a6a51ced988c879ae7db1f71e39d.jpg"
+                            class="view-birthday__icon">
                         <p class="view-birthday__desc">View more birthdays</p>
                     </div>
                     <div class="view-birthday__info">
@@ -139,20 +128,16 @@
             <div class="friends-updates__title">
                 <p class="friends-updates__name">Friends with Updates 2</p>
                 <i class="fa-solid fa-angle-up"></i>
-            </div>    
+            </div>
             <div class="update-users">
                 <div class="update-users__card">
-                    <img 
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KJta8kWIZZuPXXKTB4LuhCDjh-yiecCt9BSBJ0WAAhFogOyBfZuTn8hlegwNRRFnShk&usqp=CAU" 
-                        class="update-users__photo"
-                    />
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KJta8kWIZZuPXXKTB4LuhCDjh-yiecCt9BSBJ0WAAhFogOyBfZuTn8hlegwNRRFnShk&usqp=CAU"
+                        class="update-users__photo" />
                     <p class="update-users__name">황성돈</p>
                 </div>
                 <div class="update-users__card">
-                    <img 
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KJta8kWIZZuPXXKTB4LuhCDjh-yiecCt9BSBJ0WAAhFogOyBfZuTn8hlegwNRRFnShk&usqp=CAU" 
-                        class="update-users__photo"
-                    />
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KJta8kWIZZuPXXKTB4LuhCDjh-yiecCt9BSBJ0WAAhFogOyBfZuTn8hlegwNRRFnShk&usqp=CAU"
+                        class="update-users__photo" />
                     <p class="update-users__name">채정훈</p>
                 </div>
             </div>
@@ -165,11 +150,9 @@
             </div>
             <div class="users">
                 <div class="user-profile">
-                    <div class="user-profile__card">                
-                        <img 
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KJta8kWIZZuPXXKTB4LuhCDjh-yiecCt9BSBJ0WAAhFogOyBfZuTn8hlegwNRRFnShk&usqp=CAU" 
-                            class="user-profile__photo"
-                        >
+                    <div class="user-profile__card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KJta8kWIZZuPXXKTB4LuhCDjh-yiecCt9BSBJ0WAAhFogOyBfZuTn8hlegwNRRFnShk&usqp=CAU"
+                            class="user-profile__photo">
                         <div class="user-profile__info">
                             <div class="user-profile__user">
                                 <p class="user-profile__name">최고존엄에링</p>
@@ -179,11 +162,9 @@
                     </div>
                 </div>
                 <div class="user-profile">
-                    <div class="user-profile__card">                
-                        <img 
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KJta8kWIZZuPXXKTB4LuhCDjh-yiecCt9BSBJ0WAAhFogOyBfZuTn8hlegwNRRFnShk&usqp=CAU" 
-                            class="user-profile__photo"
-                        >
+                    <div class="user-profile__card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KJta8kWIZZuPXXKTB4LuhCDjh-yiecCt9BSBJ0WAAhFogOyBfZuTn8hlegwNRRFnShk&usqp=CAU"
+                            class="user-profile__photo">
                         <div class="user-profile__info">
                             <div class="user-profile__user">
                                 <p class="user-profile__name">김해솔</p>
@@ -193,11 +174,9 @@
                     </div>
                 </div>
                 <div class="user-profile">
-                    <div class="user-profile__card">                
-                        <img 
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KJta8kWIZZuPXXKTB4LuhCDjh-yiecCt9BSBJ0WAAhFogOyBfZuTn8hlegwNRRFnShk&usqp=CAU" 
-                            class="user-profile__photo"
-                        >
+                    <div class="user-profile__card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KJta8kWIZZuPXXKTB4LuhCDjh-yiecCt9BSBJ0WAAhFogOyBfZuTn8hlegwNRRFnShk&usqp=CAU"
+                            class="user-profile__photo">
                         <div class="user-profile__info">
                             <div class="user-profile__user">
                                 <p class="user-profile__name">김해온</p>
@@ -211,11 +190,9 @@
                     </div>
                 </div>
                 <div class="user-profile">
-                    <div class="user-profile__card">                
-                        <img 
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KJta8kWIZZuPXXKTB4LuhCDjh-yiecCt9BSBJ0WAAhFogOyBfZuTn8hlegwNRRFnShk&usqp=CAU" 
-                            class="user-profile__photo"
-                        >
+                    <div class="user-profile__card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KJta8kWIZZuPXXKTB4LuhCDjh-yiecCt9BSBJ0WAAhFogOyBfZuTn8hlegwNRRFnShk&usqp=CAU"
+                            class="user-profile__photo">
                         <div class="user-profile__info">
                             <div class="user-profile__user">
                                 <p class="user-profile__name">서상덕</p>
@@ -229,11 +206,9 @@
                     </div>
                 </div>
                 <div class="user-profile">
-                    <div class="user-profile__card">                
-                        <img 
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KJta8kWIZZuPXXKTB4LuhCDjh-yiecCt9BSBJ0WAAhFogOyBfZuTn8hlegwNRRFnShk&usqp=CAU" 
-                            class="user-profile__photo"
-                        >
+                    <div class="user-profile__card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KJta8kWIZZuPXXKTB4LuhCDjh-yiecCt9BSBJ0WAAhFogOyBfZuTn8hlegwNRRFnShk&usqp=CAU"
+                            class="user-profile__photo">
                         <div class="user-profile__info">
                             <div class="user-profile__user">
                                 <p class="user-profile__name">문광명</p>
@@ -243,11 +218,9 @@
                     </div>
                 </div>
                 <div class="user-profile">
-                    <div class="user-profile__card">                
-                        <img 
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KJta8kWIZZuPXXKTB4LuhCDjh-yiecCt9BSBJ0WAAhFogOyBfZuTn8hlegwNRRFnShk&usqp=CAU" 
-                            class="user-profile__photo"
-                        >
+                    <div class="user-profile__card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KJta8kWIZZuPXXKTB4LuhCDjh-yiecCt9BSBJ0WAAhFogOyBfZuTn8hlegwNRRFnShk&usqp=CAU"
+                            class="user-profile__photo">
                         <div class="user-profile__info">
                             <div class="user-profile__user">
                                 <p class="user-profile__name">김경호</p>
@@ -257,11 +230,9 @@
                     </div>
                 </div>
                 <div class="user-profile">
-                    <div class="user-profile__card">                
-                        <img 
-                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KJta8kWIZZuPXXKTB4LuhCDjh-yiecCt9BSBJ0WAAhFogOyBfZuTn8hlegwNRRFnShk&usqp=CAU" 
-                            class="user-profile__photo"
-                        >
+                    <div class="user-profile__card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2KJta8kWIZZuPXXKTB4LuhCDjh-yiecCt9BSBJ0WAAhFogOyBfZuTn8hlegwNRRFnShk&usqp=CAU"
+                            class="user-profile__photo">
                         <div class="user-profile__info">
                             <div class="user-profile__user">
                                 <p class="user-profile__name">오세헌</p>
@@ -281,11 +252,11 @@
     <nav class="nav">
         <ul class="nav__list">
             <li class="nav__btn">
-                <a class="nav__link" href="Friends.html">
+                <a class="nav__link" href="friends.html">
                     <i class="fa-solid fa-user fa-lg"></i>
                 </a>
             </li>
-            <li class="nav__btn"> 
+            <li class="nav__btn">
                 <a class="nav__link" href="chats.html">
                     <span class="nav-chat__notification badge">1</span>
                     <i class="fa-regular fa-comment fa-lg"></i>
@@ -308,11 +279,12 @@
                 </a>
             </li>
         </ul>
-    
-    
-    
+
+
+
     </nav>
-    
+
     <script src="https://kit.fontawesome.com/50ae2320b3.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -1,0 +1,33 @@
+.screen-header__3colomns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 10px;
+  position: fixed;
+  top: 45px;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.screen-header__3colomns-back {
+  width: 33%;
+  margin: 0 auto;
+}
+
+.screen-header__3colomns-titles {
+  margin: 0 auto;
+  width: 33%;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.screen-header__3colomns-icon {
+  width: 33%;
+  text-align: right;
+}
+
+.screen-header__3colomns-icon i {
+  margin-left: 10px;
+}

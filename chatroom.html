@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="css/styles.css">
     <meta charset="UTF-8">
@@ -7,8 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ChatRoom</title>
 </head>
+
 <body>
-    <div class="status-bar">
+    <div class="status-bar chatroom">
         <div class="status-bar__column">
             <span>11:11</span>
             <i class="fa-solid fa-location-arrow"></i>
@@ -19,22 +21,46 @@
             <i class="fa-solid fa-battery-full"></i>
         </div>
     </div>
-    
-    <header class="screen-header">
-        <div class="screen-header__titles">
-            <a class="screen-header__main" href="chats.html">Chat</a>
-            <a class="screen-header__sub unselected-chat" href="openchats.html">OpenChat</a>
+
+    <header class="screen-header__3colomns chatroom">
+        <div class="screen-header__3colomns-back">
+            <a href="chats.html"><i class="fa-solid fa-angle-left fa-lg"></i></a>
         </div>
-        <div class="screen-header__icon">
-            <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-            <span><i class="fa-solid fa-comment-dots fa-lg"></i></span>
-            <span><i class="fa-brands fa-itunes-note fa-lg"></i></span>
-            <span><i class="fa-solid fa-gear fa-lg"></i></span>
+        <div class="screen-header__3colomns-titles">
+            <p class="screen-header__main">Chat</p>
+        </div>
+        <div class="screen-header__3colomns-icon">
+            <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            <i class="fa-solid fa-bars fa-lg"></i>
         </div>
     </header>
 
-    <main class="screen">
-    
+    <main class="chatroom-screen">
+        <div class="chatroom-time">
+            <div class="chatroom-timestamp">
+                Friday, March 18, 2022
+            </div>
+        </div>
+        <div class="chatroom-income">
+            <img src="https://contents.lotteon.com/itemimage/LO/10/28/10/24/52/_1/02/81/02/45/3/LO1028102452_1028102453_1.jpg/dims/optimize/dims/resizemc/400x400"
+                class="chatroom-income__photo">
+            <div class="chatroom-income__content">
+                <div class="chatroom-income__username">최고존엄에링</div>
+                <div class="chatroom-income__message">
+                    <div class="chatroom-income__message-body">오늘 공부 몇 시까지 할거예요?</div>
+                    <div class="chatroom-income__message-timestamp">1:50 AM</div>
+                </div>
+            </div>
+        </div>
+        <div class="chatroom-outgoing">
+            <div class="chatroom-outgoing__message">
+                <div class="chatroom-outgoing__message-timestamp">1:52 AM</div>
+                <div class="chatroom-outgoing__message-body">2시까지만 하고 잘게요</div>
+            </div>
+        </div>
+    </main>
+
     <script src="https://kit.fontawesome.com/50ae2320b3.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
