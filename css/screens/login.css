@@ -1,71 +1,101 @@
-
-
 .welcome-header {
-    margin: 90px 0px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin: 90px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .welcome-header__title {
-    margin-bottom: 40px;
-    font-size: 25px;
+  margin-bottom: 40px;
+  font-size: 25px;
 }
 
 .welcome-header__text {
-    color: gray;
-    opacity: 0.6;
-    width: 70%;
+  color: gray;
+  opacity: 0.6;
+  width: 70%;
 }
 
 .login-form {
-    display: flex;
-    flex-direction: column;
-    margin: 0px 30px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
 }
 
-.login-form__username, .login-form__password {
-    padding: 15px 0px;
-    border: none;
-    font-size: 18px;    
-    margin-bottom: 20px;
-    background-color: transparent;
-    color: white;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.4);
-    transition: border-color 0.3s ease-in-out;
+.login-form__username,
+.login-form__password {
+  padding: 15px 0px;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  color: white;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.4);
+  transition: border-color 0.3s ease-in-out;
 }
 
-.login-form__username::placeholder, .login-form__password::placeholder {
-    color: gray;
-    opacity: 0.4;
+.login-form__username::placeholder,
+.login-form__password::placeholder {
+  color: gray;
+  opacity: 0.4;
 }
 
-.login-form__username:focus, .login-form__password:focus {
-    border-color: var(--yellow);
+.login-form__username:focus,
+.login-form__password:focus {
+  border-color: var(--yellow);
 }
 
 .login-form__submit {
-    padding: 15px 0px;
-    border: none;
-    font-size: 18px;    
-    margin-bottom: 20px;
-    background-color: var(--yellow);
-    color: black;
-    cursor: pointer;
-    padding: 15px 0px;
-    marging: 5px 0px;
-    border-radius: 10px;    
+  padding: 15px 0px;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 20px;
+  background-color: var(--yellow);
+  color: black;
+  cursor: pointer;
+  padding: 15px 0px;
+  marging: 5px 0px;
+  border-radius: 10px;
 }
 
 .login-form__submit[value="Log In"] {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .login-form a {
-    text-decoration: none;
-    text-align: center;
-    color: gray;
-    opacity: 0.6;
-    font-size: 14px;
+  text-decoration: none;
+  text-align: center;
+  color: gray;
+  opacity: 0.6;
+  font-size: 14px;
+}
+
+.splash-screen {
+  background-color: var(--yellow);
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  font-size: 80px;
+  animation: hideSplashScreen 0.4s ease-out forwards;
+  animation-delay: 2s;
+}
+
+.splash-screen i {
+  color: black;
+}
+
+@keyframes hideSplashScreen {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
 }

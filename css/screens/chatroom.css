@@ -91,3 +91,75 @@
   border-radius: 10px;
   border-top-right-radius: 0px;
 }
+
+.reply {
+  display: flex;
+  width: 100%;
+  padding: 10px 10px 20px 10px;
+  box-sizing: border-box;
+  background-color: rgba(90, 90, 90, 0.5);
+  position: fixed;
+  bottom: 0;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(90, 90, 90, 0.9);
+  font-size: 20px;
+}
+
+.reply-add {
+  background-color: transparent;
+  width: 10%;
+}
+
+.reply-inputfield {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  width: 80%;
+  position: relative;
+}
+
+.reply-inputfield__message {
+  background-color: transparent;
+  border: 1px solid rgba(90, 90, 90, 0.9);
+  border-radius: 20px;
+  padding: 10px;
+  width: 70vw;
+}
+
+.reply-inputfield__emoji {
+  position: absolute;
+  right: 40px;
+}
+
+.reply-inputfield__hashtag {
+  background-color: transparent;
+  position: absolute;
+  right: 10px;
+}
+
+.reply-audio {
+  width: 10%;
+  background-color: transparent;
+  text-align: right;
+}
+
+.reply-keyboard {
+  display: flex;
+  width: 100%;
+  padding: 10px 10px 20px 10px;
+  box-sizing: border-box;
+  background-color: rgba(90, 90, 90, 0.5);
+  position: fixed;
+  bottom: 320px;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(90, 90, 90, 0.9);
+  font-size: 20px;
+}
+
+.reply-keyboard__key {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+}
