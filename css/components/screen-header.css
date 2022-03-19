@@ -15,7 +15,7 @@
   font-weight: 600;
 }
 
-.screen-header__icon span {
+.screen-header__icon i {
   margin: 0px 5px;
 }
 
@@ -36,4 +36,17 @@
 
 .unselected-chat {
   color: rgba(128, 128, 128, 0.8);
+}
+
+@keyframes iconHover {
+  from {
+    transform: none;
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+.screen-header__icon i:hover {
+  animation: iconHover 0.1s ease-in-out forwards;
 }

@@ -67,7 +67,8 @@ body {
   .screen-header,
   .screen-header__3colomns,
   .nav,
-  .view-menu {
+  .view-menu,
+  .reply {
     width: 390px;
     margin: 0px auto;
   }
@@ -79,7 +80,8 @@ body {
   .screen-header,
   .screen-header__3colomns,
   .nav,
-  .view-menu {
+  .view-menu,
+  .reply {
     width: 80%;
     margin: 0px auto;
   }
