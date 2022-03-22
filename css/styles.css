@@ -58,7 +58,22 @@ body {
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 389px) {
+#no-screen {
+  position: absolute;
+  z-index: 99;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+}
+
+@media screen and (min-width: 389px) {
 }
 
 @media screen and (min-width: 390px) {
@@ -73,6 +88,10 @@ body {
     width: 390px;
     margin: 0px auto;
   }
+
+  #no-screen {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 900px) {
@@ -86,6 +105,10 @@ body {
   .splash-screen {
     width: 80%;
     margin: 0px auto;
+  }
+
+  #no-screen {
+    display: none;
   }
 }
 
