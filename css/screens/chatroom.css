@@ -130,6 +130,7 @@ body .reply {
   background-color: transparent;
   width: 80%;
   position: relative;
+  transition: all 0.3s ease-in-out;
 }
 
 .reply-inputfield__message {
@@ -183,3 +184,22 @@ body .reply {
   position: fixed;
   bottom: 0px;
 } */
+
+.reply:focus-within .reply-audio {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.reply:focus-within .reply-inputfield__message {
+  width: 100vw;
+  transform: translateX(10%);
+  color: white;
+}
+
+.reply:focus-within .reply-inputfield__emoji {
+  transform: translateX(20px);
+}
+
+.reply:focus-within .reply-inputfield__hashtag {
+  transform: translateX(20px);
+}

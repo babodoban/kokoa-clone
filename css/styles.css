@@ -68,7 +68,8 @@ body {
   .screen-header__3colomns,
   .nav,
   .view-menu,
-  .reply {
+  .reply,
+  .splash-screen {
     width: 390px;
     margin: 0px auto;
   }
@@ -81,7 +82,8 @@ body {
   .screen-header__3colomns,
   .nav,
   .view-menu,
-  .reply {
+  .reply,
+  .splash-screen {
     width: 80%;
     margin: 0px auto;
   }
