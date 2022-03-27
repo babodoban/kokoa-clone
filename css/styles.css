@@ -94,7 +94,7 @@ body {
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
   body,
   .status-bar,
   .screen-header,
@@ -103,7 +103,7 @@ body {
   .view-menu,
   .reply,
   .splash-screen {
-    width: 80%;
+    width: 768px;
     margin: 0px auto;
   }
 
@@ -112,5 +112,23 @@ body {
   }
 }
 
-@media screen and (max-width: 901px) {
+@media screen and (min-width: 1024px) {
+  body,
+  .status-bar,
+  .screen-header,
+  .screen-header__3colomns,
+  .nav,
+  .view-menu,
+  .reply,
+  .splash-screen {
+    width: 75%;
+    margin: 0px auto;
+  }
+
+  #no-screen {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1025px) {
 }
