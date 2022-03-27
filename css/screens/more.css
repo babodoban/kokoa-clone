@@ -107,6 +107,10 @@
   margin-top: 20px;
 }
 
+.more-menu__item:hover {
+  transform: scale(1.1);
+}
+
 .more-menu__item i {
   display: flex;
   flex-direction: column;

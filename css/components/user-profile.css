@@ -2,7 +2,25 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0px 0px 20px 0px;
+  margin: 0px 0px 10px 0px;
+  padding: 5px 5px;
+}
+
+.user-profile:hover {
+  background-color: rgba(128, 128, 128, 0.2);
+  padding: 5px 5px;
+  border-radius: 10px;
+}
+
+.user-profile:hover div,
+.user-profile:hover div p,
+.user-profile:hover div i,
+.user-profile:hover div span {
+  background-color: transparent;
+}
+
+.user-profile:hover .badge {
+  background-color: tomato;
 }
 
 .user-profile__card {
@@ -70,8 +88,19 @@
 }
 
 .update-users__card {
-  margin: 0px 15px 0px 0px;
+  margin: 0px 10px 0px 0px;
+  padding: 5px 5px;
   align-items: center;
+}
+
+.update-users__card:hover {
+  background-color: rgba(128, 128, 128, 0.2);
+  padding: 5px 5px;
+  border-radius: 10px;
+}
+
+.update-users__card:hover p {
+  background-color: transparent;
 }
 
 .update-users__photo {

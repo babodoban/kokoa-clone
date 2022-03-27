@@ -18,6 +18,10 @@
   position: relative;
 }
 
+.nav__btn:hover {
+  transform: scale(1.2);
+}
+
 @keyframes notificationAnimation {
   0% {
     transform: none;

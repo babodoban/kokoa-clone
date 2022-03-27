@@ -1,149 +1,173 @@
 .multi-profile {
-    padding: 15px 0px;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+  padding: 15px 0px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
 }
 
 .multi-profile__title {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .multi-profile__name {
-    font-size: 14px;
-    color:rgba(128, 128, 128, 0.8);
+  font-size: 14px;
+  color: rgba(128, 128, 128, 0.8);
 }
 
 .multi-profile__title i {
-    color:rgba(128, 128, 128, 0.8);
+  color: rgba(128, 128, 128, 0.8);
 }
 
 .multi-profile__set {
-    display: flex;
-    margin: 10px 0px 0px 0px;
-    align-items: center;
+  display: flex;
+  margin: 10px 0px 0px 0px;
+  padding: 5px 5px;
+  align-items: center;
+}
+
+.multi-profile__set:hover {
+  background-color: rgba(128, 128, 128, 0.2);
+  padding: 5px 5px;
+  border-radius: 10px;
+}
+
+.multi-profile__set:hover .multi-profile__desc {
+  background-color: transparent;
 }
 
 .multi-profile__plusicon {
-    width: 40px;
-    height: 40px;
-    border-radius: 15px;
-    background-color: rgba(128, 128, 128, 0.5);
-    color: rgba(128, 128, 128, 0.8);
-    font-weight: 600;
-    font-size: 30px;
-    text-align: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 15px;
+  background-color: rgba(128, 128, 128, 0.5);
+  color: rgba(128, 128, 128, 0.8);
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
 }
 
 .multi-profile__desc {
-    margin: 0px 10px;
+  margin: 0px 10px;
 }
 
 .friends-birthdays {
-    padding: 15px 0px 0px 0px;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+  padding: 15px 0px 0px 0px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
 }
 
 .friends-birthdays__title {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
-    
+
 .friends-birthdays__name {
-    font-size: 14px;
-    color:rgba(128, 128, 128, 0.8);
+  font-size: 14px;
+  color: rgba(128, 128, 128, 0.8);
 }
 
 .friends-birthdays__title i {
-    color:rgba(128, 128, 128, 0.8);
+  color: rgba(128, 128, 128, 0.8);
 }
 
 .users {
-    margin: 10px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
 }
 
 .view-birthday {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0px 0px 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 0px 10px 0px;
+  padding: 5px 5px;
+}
+
+.view-birthday:hover {
+  background-color: rgba(128, 128, 128, 0.2);
+  padding: 5px 5px;
+  border-radius: 10px;
+}
+
+.view-birthday:hover div,
+.view-birthday:hover div p,
+.view-birthday:hover div i {
+  background-color: transparent;
 }
 
 .view-birthday__card {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .view-birthday__icon {
-    width: 40px;
-    height: 40px;
-    border-radius: 15px;
-    margin: 0px;
+  width: 40px;
+  height: 40px;
+  border-radius: 15px;
+  margin: 0px;
 }
 
 .view-birthday__desc {
-    margin: 0px 15px;
+  margin: 0px 15px;
 }
 
 .view-birthday__info {
-    display: flex;
-    align-items: center;
-    padding: 0px 5px;
+  display: flex;
+  align-items: center;
+  padding: 0px 5px;
 }
 
 .view-birthday__count {
-    color:rgba(128, 128, 128, 0.8);
-    font-size: 14px;
-    font-weight: 200;
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0);
+  color: rgba(128, 128, 128, 0.8);
+  font-size: 14px;
+  font-weight: 200;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .view-birthday__info i {
-    color:rgba(128, 128, 128, 0.8);
+  color: rgba(128, 128, 128, 0.8);
 }
 
 .friends-updates {
-    padding: 15px 0px 0px 0px;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+  padding: 15px 0px 0px 0px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
 }
 
 .friends-updates__title {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .friends-updates__name {
-    font-size: 14px;
-    color:rgba(128, 128, 128, 0.8);
+  font-size: 14px;
+  color: rgba(128, 128, 128, 0.8);
 }
 
 .friends-updates__title i {
-    color:rgba(128, 128, 128, 0.8);
+  color: rgba(128, 128, 128, 0.8);
 }
 
 .friends-list {
-    padding: 15px 0px 0px 0px;
-    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+  padding: 15px 0px 0px 0px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
 }
 
 .friends-list__title {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .friends-list__name {
-    font-size: 14px;
-    color:rgba(128, 128, 128, 0.8);
+  font-size: 14px;
+  color: rgba(128, 128, 128, 0.8);
 }
 
 .friends-list__title i {
-    color:rgba(128, 128, 128, 0.8);
+  color: rgba(128, 128, 128, 0.8);
 }
 
 .copyright {
-    width: 100%;
-    text-align: center;
-    padding: 20px 0px 100px 0px;
-    font-size: 14px;
-    color:rgba(128, 128, 128, 0.8);
+  width: 100%;
+  text-align: center;
+  padding: 20px 0px 100px 0px;
+  font-size: 14px;
+  color: rgba(128, 128, 128, 0.8);
 }
